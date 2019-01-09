@@ -7,5 +7,6 @@
 5. PUSH并提交pr到master给admin，同时commit的时候写上对插件的简介
 
 ## Plugin List
+1. proxy.js 是一个本地代理服务器，它可以使用在静态项目下面，方便快捷
 
 
