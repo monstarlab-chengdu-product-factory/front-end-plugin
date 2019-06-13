@@ -1,0 +1,44 @@
+.list {
+  background: #fff;
+  overflow: hidden;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.header {
+  composes: cell;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e5e7;
+}
+
+.body {
+  flex: 1;
+  padding-left: 8px;
+}
+
+.body:first-child {
+  padding-left: 0;
+}
+
+.extra {
+  padding-right: 4px;
+  text-align: right;
+}
+
+.item {
+  composes: cell;
+  padding: 8px 16px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.item:first-child {
+  padding-top: 12px;
+}
+
+.item:last-child {
+  padding-bottom: 12px;
+}

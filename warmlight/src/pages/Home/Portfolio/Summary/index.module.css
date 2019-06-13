@@ -1,0 +1,19 @@
+.summary {
+  padding: 10px 0 20px 0;
+  background: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+
+.divider {
+  display: block;
+  background: #e5e5e7;
+  height: 1px;
+  margin: 24px 32px;
+}
+
+.stat {
+  box-sizing: border-box;
+  padding: 0 16px;
+  word-wrap: break-word;
+}

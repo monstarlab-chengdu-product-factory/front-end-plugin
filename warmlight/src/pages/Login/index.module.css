@@ -1,0 +1,76 @@
+.container {
+  height: 100%;
+  background: #2d2d30;
+  font-weight: 600;
+}
+
+.logo {
+  padding-top: 55px;
+  text-align: center;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.title {
+  padding-top: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.form {
+  padding: 50px 75px;
+}
+
+.form-item {
+  position: relative;
+}
+
+.form-item label {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-item input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #fff;
+  background: transparent;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.form-item input[name='password'] {
+  box-sizing: border-box;
+  padding-right: 25px;
+}
+
+.form-item + .form-item {
+  margin-top: 30px;
+}
+
+.form-item button {
+  margin-top: 40px;
+  padding: 8px 0;
+  width: 100%;
+  background: #717174;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+.toggle {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  width: 20px;
+  height: 14px;
+}

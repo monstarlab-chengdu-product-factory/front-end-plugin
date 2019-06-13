@@ -1,0 +1,39 @@
+.half {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.divider {
+  display: block;
+  height: 1px;
+  background: #e5e5e7;
+  margin: 24px 32px;
+}
+
+.separator {
+  display: inline-block;
+  margin: 0 8px 0 1px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}

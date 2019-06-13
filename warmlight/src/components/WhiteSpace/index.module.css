@@ -1,0 +1,30 @@
+.white-space {
+  display: block;
+  background: transparent;
+  font-size: 0;
+}
+
+.white-space--tn {
+  composes: white-space;
+  height: 4px;
+}
+
+.white-space--xs {
+  composes: white-space;
+  height: 8px;
+}
+
+.white-space--sm {
+  composes: white-space;
+  height: 14px;
+}
+
+.white-space--md {
+  composes: white-space;
+  height: 28px;
+}
+
+.white-space--lg {
+  composes: white-space;
+  height: 42px;
+}
