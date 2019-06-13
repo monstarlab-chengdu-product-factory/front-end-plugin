@@ -1,0 +1,29 @@
+.title {
+  font-size: 15px;
+  color: #2b2b2b;
+  line-height: 22px;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #2b2b2b;
+  line-height: 18px;
+}
+
+.text {
+  color: #c4c4c5;
+  font-size: 13px;
+}
+
+.subtext {
+  color: #c4c4c5;
+  font-size: 12px;
+}
+
+.h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2b2b2b;
+  line-height: 48px;
+  margin-bottom: 0.5em;
+}
